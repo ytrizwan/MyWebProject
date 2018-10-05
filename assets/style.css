@@ -1,0 +1,67 @@
+*{
+	margin: "";
+}
+body{
+	background: #333;
+}
+.mouseOnlogo >a:hover{
+	text-decoration: none;
+}
+
+.citLogo{
+	margin-left: 50px; 
+	color: white; 
+	font-weight: bold; 
+	font-size: 50px;
+	font-family: forte;
+}
+
+.pressureCookerLogo{
+	font-weight: bold;
+}
+
+.ciLogoPressureLogo{
+	color: orangered;
+}
+
+.tLogo{
+	background: #00009F;
+}
+
+.cookerLogo{
+	color: white;
+	background-color: #00009F;
+}
+
+.testBoarder{
+	border: 5px solid #FF0004;
+}
+
+.footerStyleLeft >a {
+	margin-top: 10px;
+	color: #BCBCBC;
+	float: left;
+}
+
+.footerStyleLeft >a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.footerStyleRight >a {
+	color: #BCBCBC;
+	float: right;
+}
+
+.footerStyleRight >a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.footerBoarder {
+	border: 0px solid;
+	background: #000000;
+	padding: 20px;
+}
