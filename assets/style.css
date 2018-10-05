@@ -1,8 +1,5 @@
-*{
-	margin: "";
-}
 body{
-	background: #333;
+	background: #222;
 }
 .mouseOnlogo >a:hover{
 	text-decoration: none;
@@ -37,6 +34,23 @@ body{
 	border: 5px solid #FF0004;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer of Page*/
+
 .footerStyleLeft >a {
 	margin-top: 10px;
 	color: #BCBCBC;
@@ -61,7 +75,7 @@ body{
 }
 
 .footerBoarder {
-	border: 0px solid;
-	background: #000000;
+	border-top: 1px solid black;
+	background: #222;
 	padding: 20px;
 }

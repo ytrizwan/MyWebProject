@@ -16,9 +16,8 @@
 	</head>
 	
 	<body>
-		<div class="container-fluid">
+		<!--Top Navigation Bar-->
 			<nav class="navbar navbar-inverse navbar-fixed-top">
-			<!--Top Navigation Bar-->
 				<div class="container-fluid">
 					<div class="navbar-header mouseOnlogo">
 						<a href="https://cit.edu.au/">
@@ -38,16 +37,11 @@
 				</div>
 				<!--Ending Top Navigation Bar-->
 			</nav>
-
-
-
-
-
-
-
-
-
-
+			
+		<!--Main Body Container Which Contains All the Content of Page between NavBar and Footer-->
+		<div class="container-fluid">
+			
+		<!--Carousel (Showing sliding pictures)-->
 			<div class="row" style="margin-top: 110px;">
 				<div class="container-fluid">
 					<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -85,6 +79,7 @@
 						</a>
 					</div>
 				</div>
+			<!--Ending of Carousel-->
 			</div>
 		
 		
@@ -102,6 +97,7 @@
 			
 		</div>
 		
+		<!--Footer At the End of Page-->
 		<div class="row footerBoarder">
 			<div class="col-md-6">
 				<div class="col-md-1">
@@ -118,6 +114,7 @@
 				
 				<a href="about.php"><span style="margin: 20px">About Us</span></a>
 			</div>
+		<!--Ending of Footer-->
 		</div>
 	</body>
 </html>
