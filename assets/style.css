@@ -317,8 +317,6 @@ body{
 }
 
 .resizeCarouselMainPage{
-	max-height: 850px;
-    height: 850px;
     width: -webkit-fill-available;
     max-width: fit-content;
     object-fit: cover;
