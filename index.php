@@ -155,7 +155,7 @@
 			</div>
 		</div>
 		<div class="<?php echo $show_or_not_judges; ?> container-fluid myContainer bg-3 text-center goTopAnim" style="padding: 50px;">
-			<br><a href="judgesLink.php" class="btn btn-info btn-lg" style="float: right; margin-right: 20px;">Get More</a><br>
+			<br><a href="judgesLink.php" class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">Get More</a><br>
 			<!--Ending Judge Container-->
 		</div>
 		
@@ -209,7 +209,7 @@
 			</div>
 		</div>
 		<div class="<?php echo $show_or_not_team; ?> container-fluid myContainer bg-1 text-center goTopAnim" style="padding: 50px;">
-			<br><a href="teamsLink.php" class="btn btn-info btn-lg" style="float: right; margin-right: 20px;">Get More</a><br>
+			<br><a href="teamsLink.php" class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">Get More</a><br>
 		<!--Ending Team Container-->
 		</div>
 		
@@ -266,7 +266,7 @@
 			?>
 		</div>
 		<div class="<?php echo $show_or_not_recipe; ?> container-fluid myContainer bg-2 text-center goTopAnim" style="padding: 50px;">
-			<br><a href="recipesLink.php" class="btn btn-info btn-lg" style="float: right; margin-right: 20px;">Get More</a><br>
+			<br><a href="recipesLink.php" class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">Get More</a><br>
 		<!--Ending Recipes Container-->
 		</div>
 		
@@ -325,7 +325,7 @@
 			?>			
 		</div>
 		<div class="<?php echo $show_or_not_media; ?> container-fluid myContainer bg-4 text-center goTopAnim" style="padding: 50px;">
-			<br><a href="mediaLink.php" class="btn btn-info btn-lg" style="float: right; margin-right: 20px;">Get More</a><br>
+			<br><a href="mediaLink.php" class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">Get More</a><br>
 		<!--Ending Media Container-->
 		</div>
 		
@@ -377,7 +377,7 @@
 
 		</div>
 		<div class="<?php echo $show_or_not_gallery; ?> container-fluid myContainer bg-3 text-center goTopAnim" style="padding: 50px;">
-			<br><a href="galleryLink.php" class="btn btn-info btn-lg" style="float: right; margin-right: 20px;">Get More</a><br>
+			<br><a href="galleryLink.php" class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">Get More</a><br>
 		<!--Ending Gallery Container-->
 		</div>
 		
