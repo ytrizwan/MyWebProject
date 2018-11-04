@@ -42,7 +42,7 @@
 		<!--Behind Scenes-->
 		<div class="container-fluid myContainer bg-3 text-center goTopAnim" style="padding: 100px;">
 
-			<h1 style="font-weight: bold; background: blue; color: white; border-radius: 5px; object-fit: none;">SPONSORS</h1><br>
+			<h1 style="font-weight: bold; background: black; color: white; border-radius: 5px; object-fit: none;">SPONSORS</h1><br>
 
 			<div class="row" style="padding: 50px;">
 			<?php

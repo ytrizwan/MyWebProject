@@ -36,7 +36,7 @@
 		<div class="container-fluid myContainer bg-3 text-center goTopAnim mediaLinkContainer">
 
 
-			<h1 style="font-weight: bold; background: blue; color: white; border-radius: 5px; margin: 100px;">EPISODES</h1><br>
+			<h1 style="font-weight: bold; background: black; color: white; border-radius: 5px; margin: 100px;">EPISODES</h1><br>
 					<?php
 					$media_query = "SELECT * FROM media
 										ORDER BY id DESC
