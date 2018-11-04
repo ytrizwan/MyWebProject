@@ -37,7 +37,11 @@
 						<li><a href="viewMedia.php"><i class="fas fa-video" style="color: white; font-size: 25px; margin-right: 15px;"></i>Insert Episodes</a></li>
 						<li><a href="viewGallery.php"><i class="fas fa-images" style="color: white; font-size: 25px; margin-right: 15px;"></i>Insert Gallery</a></li>
 						<li><a href="viewSponsors.php"><i class="fas fa-dollar-sign" style="color: white; font-size: 25px; margin-right: 15px;"></i>Insert Sponsors</a></li>
+<<<<<<< HEAD
 						<li><a href="viewBehindScenes.php"><i class="fas fa-theater-masks" style="color: white; font-size: 25px; margin-right: 15px;"></i>Insert BehindScenes</a></li>
+=======
+						<li><a href="viewBehindScenses.php"><i class="fas fa-theater-masks" style="color: white; font-size: 25px; margin-right: 15px;"></i>Insert BehindScense</a></li>
+>>>>>>> CIT_PressureCooker/master
 						<li><a href="viewContactUs.php"><i class="fa fa-phone" style="color: white; font-size: 25px; margin-right: 15px;"></i>Contact Us</a></li>
 						<li><a href="changeUser.php"><i class="fas fa-desktop" style="color: white; font-size: 25px; margin-right: 15px;"></i>Change UserName</a></li>
 						<li><a href="changePass.php"><i class="fas fa-key" style="color: white; font-size: 25px; margin-right: 15px;"></i>Change Password</a></li>
@@ -47,6 +51,7 @@
 		</div>
 		<div class="col-md-9">
 			<div class="container-fluid" style="background: blue; border: 1px solid;">
+<<<<<<< HEAD
 				<div class="col-md-6">
 					<a href="../index.php"><i class="fas fa-home" style="color: white; font-size: 25px; margin-right: 15px; padding-top: 12px;"></i></a>
 				</div>
@@ -55,6 +60,11 @@
 						<button class= "btn btn-purple" style="float: right; margin: 10px">Log Out</button>
 					</form>
 				</div>
+=======
+				<form action="logout.php">
+					<button class= "btn btn-purple" style="float: right; margin: 10px">Log Out</button>
+				</form>
+>>>>>>> CIT_PressureCooker/master
 			</div>
 			<div class="container" style="background: #FFF;">
 				<h2>Admin Dashboard</h2>
@@ -168,7 +178,11 @@
 					
 					<div style="margin-bottom: 10px" class="col-md-3">
 						<?php
+<<<<<<< HEAD
 							$pc = "SELECT * FROM behindscenes";
+=======
+							$pc = "SELECT * FROM behindscense";
+>>>>>>> CIT_PressureCooker/master
 							$run_p = mysqli_query($conn, $pc);
 							$countbehindscense = mysqli_num_rows($run_p);
 						?>
@@ -177,7 +191,11 @@
 								<div class="icon" style="background: #FD7E00">
 									<i class="fas fa-theater-masks"; style="font-size: 60px; color: white;"></i>
 								</div><br>
+<<<<<<< HEAD
 								<h4>BHDScenes Post</h4>
+=======
+								<h4>BHDScense Post</h4>
+>>>>>>> CIT_PressureCooker/master
 								<span class="badge" style="font-size: 20px"><?php echo $countbehindscense; ?></span>
 							</center>
 						</div>

@@ -1,7 +1,10 @@
 <?php
 	require 'admin/config/db.php';
+<<<<<<< HEAD
 	@$get = $_GET['team'];
 	session_start();
+=======
+>>>>>>> CIT_PressureCooker/master
 ?>
 <!DOCTYPE html>
 <html>
@@ -92,6 +95,10 @@
 		
 		
 		<div class="container bg-3 voteAlignment text-center" >
+<<<<<<< HEAD
+=======
+			
+>>>>>>> CIT_PressureCooker/master
 					<form action="" method="post">
 						<label for="email">Enter Your Email</label>
 						<input required class="form-control" type="email" id="emailId" name="email" style="box-shadow: 3px 4px 2px #efa6a6;"><br><br><br>
@@ -106,12 +113,16 @@
 							FROM voters";
 				$run_query = mysqli_query($conn, $query);
 				$count = mysqli_num_rows($run_query);
+<<<<<<< HEAD
 				$vote_is_casted = false;
+=======
+>>>>>>> CIT_PressureCooker/master
 				if($count > 0){
 					while($row = mysqli_fetch_array($run_query)){
 						$email_from_database = $row['email'];
 						
 						if($email_from_user == $email_from_database){
+<<<<<<< HEAD
 							$vote_is_casted = true;
 						}
 					}
@@ -142,6 +153,18 @@
 					}
 				}
 			}
+=======
+							echo "<center><h4>You casted vote before, Thank you!</h4></center>";
+						}else{
+							$random_code = mt_rand();
+							
+	
+						}
+					}
+				}
+			}
+			
+>>>>>>> CIT_PressureCooker/master
 		?>
 		
 		
@@ -157,6 +180,13 @@
 		
 		
 		
+<<<<<<< HEAD
+=======
+		
+		
+		
+		
+>>>>>>> CIT_PressureCooker/master
 	</div>
 
 
@@ -185,7 +215,11 @@
 		</div>
 		
 		<div class="col-md-4 footerStyleRight">
+<<<<<<< HEAD
 			<a href="behindScense.php"><span style="margin: 20px">Behind The Scenes</span></a><br>
+=======
+			<a href="behindScense.php"><span style="margin: 20px">Behind The Scense</span></a><br>
+>>>>>>> CIT_PressureCooker/master
 
 			<a href="about.php"><span style="margin: 50px">About Us</span></a><br>
 

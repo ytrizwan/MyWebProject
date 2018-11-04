@@ -1,9 +1,12 @@
 <?php
 	require 'admin/config/db.php';
+<<<<<<< HEAD
 	@$get = $_GET['team'];
 	session_start();
 	$random_code = $_SESSION['code'];
 	$email = $_SESSION['email'];
+=======
+>>>>>>> CIT_PressureCooker/master
 ?>
 <!DOCTYPE html>
 <html>
@@ -94,6 +97,7 @@
 		
 		
 		<div class="container bg-3 voteAlignment text-center" >
+<<<<<<< HEAD
 					<?php echo "Email:".$email; ?>
 					<?php echo "team:".$get; ?>
 					<?php echo "code:".$random_code; ?>
@@ -132,6 +136,19 @@
 				
 			}
 		?>
+=======
+					<p>Please, check your email account.</p>
+					<p>We send you an email confirmation code.</p><br>
+					<form action="voteConfirmationLink.php" method="get" enctype="multipart/form-data">
+						<label for="code">Please Enter Code</label>
+						<input required class="form-control" type="text" id="code" name="code" style="box-shadow: 3px 4px 2px #efa6a6;"><br><br><br>
+						<button name="submit" type="submit" class="btn btn-success btn-md" style="float: right">Submit</button>
+					</form>
+		
+		</div>
+
+		
+>>>>>>> CIT_PressureCooker/master
 		
 		
 		
@@ -157,7 +174,11 @@
 
 
 	<!--Footer At the End of Page-->
+<<<<<<< HEAD
 	<footer class="goTopAnim footerBoarder" style="margin-top: 400px;">
+=======
+	<footer class="goTopAnim footerBoarder">
+>>>>>>> CIT_PressureCooker/master
 		<center><a href="#topOfPage" title="To Top">
     			<span class="glyphicon glyphicon-chevron-up"></span>
   			</a>
@@ -181,7 +202,11 @@
 		</div>
 		
 		<div class="col-md-4 footerStyleRight">
+<<<<<<< HEAD
 			<a href="behindScense.php"><span style="margin: 20px">Behind The Scenes</span></a><br>
+=======
+			<a href="behindScense.php"><span style="margin: 20px">Behind The Scense</span></a><br>
+>>>>>>> CIT_PressureCooker/master
 
 			<a href="about.php"><span style="margin: 50px">About Us</span></a><br>
 

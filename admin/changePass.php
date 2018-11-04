@@ -39,7 +39,11 @@
 						<li><a href="viewMedia.php"><i class="fas fa-video" style="color: white; font-size: 25px; margin-right: 15px;"></i>Insert Episodes</a></li>
 						<li><a href="viewGallery.php"><i class="fas fa-images" style="color: white; font-size: 25px; margin-right: 15px;"></i>Insert Gallery</a></li>
 						<li><a href="viewSponsors.php"><i class="fas fa-dollar-sign" style="color: white; font-size: 25px; margin-right: 15px;"></i>Insert Sponsors</a></li>
+<<<<<<< HEAD
 						<li><a href="viewBehindScenes.php"><i class="fas fa-theater-masks" style="color: white; font-size: 25px; margin-right: 15px;"></i>Insert BehindScenes</a></li>
+=======
+						<li><a href="viewBehindScenses.php"><i class="fas fa-theater-masks" style="color: white; font-size: 25px; margin-right: 15px;"></i>Insert BehindScense</a></li>
+>>>>>>> CIT_PressureCooker/master
 						<li><a href="viewContactUs.php"><i class="fa fa-phone" style="color: white; font-size: 25px; margin-right: 15px;"></i>Contact Us</a></li>
 						<li><a href="changeUser.php"><i class="fas fa-desktop" style="color: white; font-size: 25px; margin-right: 15px;"></i>Change UserName</a></li>
 						<li class="active disabled"><a href="changePass.php"><i class="fas fa-key" style="color: white; font-size: 25px; margin-right: 15px;"></i>Change Password</a></li>
@@ -52,6 +56,7 @@
 		
 		
 		
+<<<<<<< HEAD
 		<div class="col-md-9">
 			<div class="container-fluid" style="background: blue; border: 1px solid;">
 				<div class="col-md-6">
@@ -62,6 +67,13 @@
 						<button class= "btn btn-purple" style="float: right; margin: 10px">Log Out</button>
 					</form>
 				</div>
+=======
+				<div class="col-md-9">
+			<div class="container-fluid" style="background: blue; border: 1px solid;">
+				<form action="logout.php">
+					<button class= "btn btn-purple" style="float: right; margin: 10px">Log Out</button>
+				</form>
+>>>>>>> CIT_PressureCooker/master
 			</div>
 			<div class="container" style="background: #FFF;">
 				<h2>Change Password</h2>
