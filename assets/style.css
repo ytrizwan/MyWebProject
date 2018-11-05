@@ -119,9 +119,36 @@ body{
 	border: 2px solid #FF0004;
 }
 
+/*Big Fix for Screen*/
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 0px; 
+    margin-left: -15px;
+}
+
+.row{
+	margin-left: 15px;
+	margin-right: 15px;
+}
 
 
+.container-fluid {
+	padding: 0px;
+}
 
+/*
+@media screen and (min-width: 900px) {
+  .container-fluid {
+	padding: 0px;
+  }
+}
+
+@media screen and (max-width: 901) {
+  .container-fluid {
+	padding: 0px;
+
+  }
+}
+*/
 
 
 
@@ -632,20 +659,6 @@ p.recipesMessageLimit {
 
 
 
-.container-fluid {}
-
-@media screen and (min-width: 900px) {
-  .container-fluid {
-	padding: 0px;
-  }
-}
-
-@media screen and (max-width: 901) {
-  .container-fluid {
-	padding: 10px;
-
-  }
-}
 
 
 
