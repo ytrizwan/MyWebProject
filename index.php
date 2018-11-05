@@ -125,7 +125,8 @@
 				$show_or_not_judges = '';
 			?>		
 		<!--Judge Container-->
-		<div id="judgesSection" class="<?php echo $show_or_not_judges; ?> container-fluid myContainer bg-3 text-center goTopAnim" style="padding: 100px;">
+		<div class="mobileView bg-3">
+		<div id="judgesSection" class="<?php echo $show_or_not_judges; ?> container-fluid myContainer bg-3 text-center goTopAnim">
 			<a href="#topOfPage" title="To Top">
     		<span class="glyphicon glyphicon-chevron-up"></span>
   			</a>
@@ -154,6 +155,7 @@
 			?>
 			</div>
 		</div>
+		</div>
 		<div class="<?php echo $show_or_not_judges; ?> container-fluid myContainer bg-3 text-center goTopAnim" style="padding: 50px;">
 			<br><a href="judgesLink.php" class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">Get More</a><br>
 			<!--Ending Judge Container-->
@@ -179,7 +181,8 @@
 				$show_or_not_team = '';
 			?>
 		<!--Team Container-->
-		<div id="teamSection" class="<?php echo $show_or_not_team; ?> container-fluid myContainer bg-1 text-center goTopAnim" style="padding: 100px;">
+		<div class="mobileView bg-1">
+		<div id="teamSection" class="<?php echo $show_or_not_team; ?> container-fluid myContainer bg-1 text-center goTopAnim">
 			<a href="#topOfPage" title="To Top">
     		<span class="glyphicon glyphicon-chevron-up"></span>
   			</a>
@@ -208,6 +211,7 @@
 			?>
 			</div>
 		</div>
+		</div>
 		<div class="<?php echo $show_or_not_team; ?> container-fluid myContainer bg-1 text-center goTopAnim" style="padding: 50px;">
 			<br><a href="teamsLink.php" class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">Get More</a><br>
 		<!--Ending Team Container-->
@@ -233,7 +237,8 @@
 				$show_or_not_recipe = '';
 			?>
 		<!--Recipes Container-->
-		<div id="recipesSection" class="<?php echo $show_or_not_recipe; ?> container-fluid myContainer bg-2 text-center goTopAnim" style="padding: 100px;">
+		<div class="mobileView bg-2">
+		<div id="recipesSection" class="<?php echo $show_or_not_recipe; ?> container-fluid myContainer bg-2 text-center goTopAnim">
 			<a href="#topOfPage" title="To Top">
     		<span class="glyphicon glyphicon-chevron-up"></span>
   			</a>
@@ -265,6 +270,7 @@
 			}
 			?>
 		</div>
+		</div>
 		<div class="<?php echo $show_or_not_recipe; ?> container-fluid myContainer bg-2 text-center goTopAnim" style="padding: 50px;">
 			<br><a href="recipesLink.php" class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">Get More</a><br>
 		<!--Ending Recipes Container-->
@@ -291,7 +297,8 @@
 				$show_or_not_media = '';
 			?>		
 		<!--Media Container-->
-		<div id="mediaSection" class="<?php echo $show_or_not_media; ?> container-fluid myContainer bg-4 text-center goTopAnim" style="padding: 100px;">
+		<div class="mobileView bg-4">
+		<div id="mediaSection" class="<?php echo $show_or_not_media; ?> container-fluid myContainer bg-4 text-center goTopAnim">
 			<a href="#topOfPage" title="To Top">
     		<span class="glyphicon glyphicon-chevron-up"></span>
   			</a>
@@ -324,6 +331,7 @@
 			}
 			?>			
 		</div>
+		</div>
 		<div class="<?php echo $show_or_not_media; ?> container-fluid myContainer bg-4 text-center goTopAnim" style="padding: 50px;">
 			<br><a href="mediaLink.php" class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">Get More</a><br>
 		<!--Ending Media Container-->
@@ -349,7 +357,8 @@
 				$show_or_not_gallery = '';
 			?>	
 		<!--Gallery Container-->
-		<div id="gallerySection" class="<?php echo $show_or_not_gallery; ?> container-fluid myContainer bg-3 text-center goTopAnim" style="padding: 100px;">
+		<div class="mobileView bg-3">
+		<div id="gallerySection" class="<?php echo $show_or_not_gallery; ?> container-fluid myContainer bg-3 text-center goTopAnim">
 			<a href="#topOfPage" title="To Top">
     		<span class="glyphicon glyphicon-chevron-up"></span>
   			</a>
@@ -376,6 +385,7 @@
 			</div>
 
 		</div>
+		</div>
 		<div class="<?php echo $show_or_not_gallery; ?> container-fluid myContainer bg-3 text-center goTopAnim" style="padding: 50px;">
 			<br><a href="galleryLink.php" class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">Get More</a><br>
 		<!--Ending Gallery Container-->
@@ -393,7 +403,8 @@
 		
 		
 		<!--Contact Us Container-->
-		<div id="citContacts" class="container-fluid myContainer bg-5 text-center goTopAnim" style="padding: 100px;">
+		<div class="mobileView bg-5">
+		<div id="citContacts" class="container-fluid myContainer bg-5 text-center goTopAnim">
 			<a href="#topOfPage" title="To Top">
     			<span class="glyphicon glyphicon-chevron-up"></span>
   			</a>
@@ -455,6 +466,7 @@
 			<center><img class="img-responsive" src="staticImages\map.png" width: 700px; height: 400px>
 			</center>
 		<!--Ending Contact Us Container-->
+		</div>
 		</div>
 
 
