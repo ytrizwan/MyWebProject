@@ -80,7 +80,8 @@
 		
 		
 		<!--Judge Container-->
-		<div id="startAgain" class="container-fluid myContainer bg-3 text-center goTopAnim" style="padding: 100px;">
+		<div class="mobileView bg-3">
+		<div id="startAgain" class="container-fluid myContainer bg-3 text-center goTopAnim">
 
 			<h1 style="font-weight: bold; background: black; color: white; border-radius: 5px;">JUDGES</h1><br>
 
@@ -150,6 +151,7 @@
 			</div>
 
 			<!--Ending Judge Container-->
+		</div>
 		</div>
 		<div class="container-fluid myContainer bg-3 text-center goTopAnim" style="padding: 100px;">
 				<button class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">Get More</button><br>

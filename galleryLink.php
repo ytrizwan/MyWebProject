@@ -60,7 +60,8 @@
 
 
 		<!--Judge Container-->
-		<div class="container-fluid myContainer bg-3 text-center goTopAnim" style="padding: 100px;">
+		<div class="mobileView bg-3">
+		<div class="container-fluid myContainer bg-3 text-center goTopAnim">
 
 			<h1 style="font-weight: bold; background: black; color: white; border-radius: 5px; object-fit: none;">GALLERY</h1><br>
 
@@ -81,8 +82,7 @@
 			?>					
 				<div class="col-sm-6 col-md-4 col-lg-3">
 						<img class="resizeWithThumbnail" src="admin\dynamicImages\gallery\<?php echo $img_of_gallery; ?>" alt="gallery">
-						<h2><strong><?php echo $name_of_gallery; ?></strong></h2>
-						<p style="color: #1364D1;"><strong><?php echo $msg_of_gallery; ?></strong></p><br><br><br><br>
+						<h2><strong><?php echo $name_of_gallery; ?></strong></h2><br><br><br><br>
 				</div>
 			<?php
 				}
@@ -90,6 +90,7 @@
 			?>				
 			</div>
 			<!--Ending Judge Container-->
+		</div>
 		</div>
 		
 		<div class="container-fluid myContainer bg-3 text-center goTopAnim" style="padding: 100px;">

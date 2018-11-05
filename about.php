@@ -32,7 +32,8 @@
 
 
 		<!--About Us Container-->
-		<div class="container-fluid myContainer bg-3 text-center goTopAnim" style="padding: 100px;">
+		<div class="mobileView bg-3">
+		<div class="container-fluid myContainer bg-3 text-center goTopAnim">
 
 			<h1 style="font-weight: bold; background: black; color: white; border-radius: 5px; object-fit: none;">ABOUT US</h1><br>
 
@@ -81,6 +82,7 @@
 
 			</article>
 		<!--Ending About Us Container-->
+		</div>
 		</div>
 		<!--Ending Body Content-->
 	</div>
