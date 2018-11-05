@@ -379,25 +379,38 @@ body{
 
 
 /*Best way to handle small Screens Example3*/
+.mediaHeading {}
+
+@media screen and (min-width: 1001px) {
+  .mediaHeading {
+	margin: 100px 100px 0px 100px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .mediaHeading {
+	margin: 0px;
+  }
+}
+
+
+
+
+
+/*Best way to handle small Screens Example3*/
 .mediaLinkContainer {}
 
 @media screen and (min-width: 1001px) {
   .mediaLinkContainer {
-	padding: 500px;
+	padding: 50px 100px 50px 100px;
   }
 }
 
 @media screen and (max-width: 1000px) {
   .mediaLinkContainer {
-	padding: 0px;
+	padding: 0px 0px 0px 0px;
   }
 }
-
-
-
-
-
-
 
 
 
@@ -619,11 +632,7 @@ p.recipesMessageLimit {
 
 
 
-.container-fluid {
-	
-}
-
-
+.container-fluid {}
 
 @media screen and (min-width: 900px) {
   .container-fluid {

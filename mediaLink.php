@@ -32,11 +32,14 @@
 			include "include/other_pages_header.php";
 		?>
 
-		<!--Judge Container-->
-		<div class="container-fluid myContainer bg-3 text-center goTopAnim mediaLinkContainer">
+		<!--Media Container-->
+		<div class="container-fluid myContainer bg-3 text-center goTopAnim">
 
-
-			<h1 style="font-weight: bold; background: black; color: white; border-radius: 5px; margin: 100px;">EPISODES</h1><br>
+			
+<!--			<h1 style="font-weight: bold; background: black; color: white; border-radius: 5px; margin: 100px;">EPISODES</h1><br>-->
+				<div class="mediaHeading" >
+					<h1 style="font-weight: bold; background: black; color: white; border-radius: 5px; object-fit: none;">EPISODES</h1><br>
+				</div>
 					<?php
 					$media_query = "SELECT * FROM media
 										ORDER BY id DESC
@@ -51,8 +54,9 @@
 							$msg_of_media = $get_each_row['msg'];
 							$date_media = $get_each_row['date'];						
 					?>			
-					<div class="row" style="padding-top: 10px; padding-bottom: 100px; padding-left: 100px; padding-right: 100px;">
-						<center><h3 style="font-weight: bold"><?php echo $name_of_media; ?></h3></center>
+			<div class="mediaLinkContainer bg-3">
+					<div class="row">
+						<center><h3 style="font-weight: bold; padding-top: 10px;"><?php echo $name_of_media; ?></h3></center><br>
 						<div class="col-md-6">
 							<div class="embed-responsive embed-responsive-16by9"  style="border-radius: 5px;">
   								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $video_of_media; ?>" allowfullscreen></iframe>
@@ -63,15 +67,17 @@
 							
 							<h6 style="float:right">Date:<?php echo $date_media; ?></h6>
 							<br><br>
-							<p style="text-align: justify;"><?php echo $msg_of_media; ?></p>
+							<p style="text-align: justify;"><strong><?php echo $msg_of_media; ?></strong></p>
 						</div>
 					</div><hr>
+					</div>
 					<?php
 						}
 					}
 					?>	
 			<!--Ending Judge Container-->
 		</div>
+	
 		
 		<div class="container-fluid myContainer bg-3 text-center goTopAnim" style="padding: 100px;">
 			<button class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">Get More</button><br>

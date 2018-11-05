@@ -44,7 +44,7 @@
 				echo "<script>window.open('indexAdmin.php', '_self')</script>";
 				$_SESSION['user'] = $user;
 			}else{
-				echo "<h5>Your Username Or Password is Incrrect</h5>";
+				echo "<h5>Your Username Or Password is Incorrect</h5>";
 			}
 		}
 		?>
