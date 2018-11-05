@@ -80,7 +80,7 @@
 				$date_gallery = $get_each_row['date'];
 				$msg_of_gallery = $get_each_row['msg'];
 			?>					
-				<div class="col-sm-6 col-md-4 col-lg-3">
+				<div class="col-sm-6 col-md-4 col-lg-4">
 						<img class="resizeWithThumbnail" src="admin\dynamicImages\gallery\<?php echo $img_of_gallery; ?>" alt="gallery">
 						<h2><strong><?php echo $name_of_gallery; ?></strong></h2><br><br><br><br>
 				</div>
