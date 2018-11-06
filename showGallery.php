@@ -346,14 +346,14 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/jquery-1.9.1.min.js"></script>
+    <script src="assets/slideShow/jquery-1.9.1.min.js"></script>
     <script src="bootstrap.min.js"></script>
     <script src="docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="ie10-viewport-bug-workaround.js"></script>
 
     <!-- jssor slider scripts-->
-    <script type="text/javascript" src="assets/jssor.slider.min.js"></script>
+    <script type="text/javascript" src="assets/slideShow/jssor.slider.min.js"></script>
     <script>
         jQuery(document).ready(function ($) {
 
