@@ -24,7 +24,7 @@
 
 		<!--Header of Body-->
 		<?php
-			$judge_select = "active disabled";
+			$judge_select = "";
 			$team_select = "";
 			$recipe_select = "";
 			$media_select = "";
@@ -53,9 +53,7 @@
 					$date_judge = $get_each_row['date'];
 
 			?>
-			
-			
-			
+
 			
 			<h1 class="text-center" style="font-weight: bold; background: black; color: white; border-radius: 5px;"><?php echo $name_of_judge; ?></h1><br>
 
@@ -68,7 +66,7 @@
 
 				<div class="col-md-6">
 					<p style="float: right; font-weight: bold;">Date: <?php echo $date_judge; ?></p><br><br>
-					<p style="color: #1364D1; text-align: justify;"><strong><?php echo $msg_of_judge; ?></strong></p>
+					<p style="color: black; text-align: justify;"><strong><?php echo $msg_of_judge; ?></strong></p>
 				</div>	
 
 
@@ -80,36 +78,8 @@
 			}
 			?>
 	
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
+
+
 				
 			</div>
 
@@ -117,30 +87,7 @@
 		</div>
 		</div><br><br><br><br>
 
-		
 
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 	<!--Ending Body Content-->
 	</div>

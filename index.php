@@ -144,7 +144,7 @@
 					$msg_of_judge = $get_each_row['msg'];
 					$date_judge = $get_each_row['date'];
 			?>
-				<div class="col-sm-6 col-md-6 col-lg-4 nojudgedecoration">
+				<div class="col-sm-6 col-md-6 col-lg-4 nojudgedecoration zoomit">
 					<a href="viewJudge.php?judge=<?php echo $id_of_judge; ?>">
 						<img class="resizeJudgeMainPage"  src="admin\dynamicImages\judges\<?php echo $img_of_judge; ?>" alt="judge">
 						<h3><strong><?php echo $name_of_judge; ?></strong></h3>
