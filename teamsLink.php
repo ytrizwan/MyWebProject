@@ -59,7 +59,7 @@
 
 			<h1 style="font-weight: bold; background: black; color: white; border-radius: 5px;">TEAMS</h1><br>
 
-				<div class="row" style="padding: 50px;">
+				<div class="row">
 	
 			<?php
 			$team_query = "SELECT * FROM teams

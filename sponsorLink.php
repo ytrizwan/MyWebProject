@@ -45,7 +45,7 @@
 
 			<h1 style="font-weight: bold; background: black; color: white; border-radius: 5px; object-fit: none;">SPONSORS</h1><br>
 
-			<div class="row" style="padding: 50px;">
+			<div class="row">
 			<?php
 			$sponsor_query = "SELECT * FROM sponsor
 								ORDER BY id DESC

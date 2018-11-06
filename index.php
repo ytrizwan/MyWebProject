@@ -253,7 +253,7 @@
 				$msg_of_recipe = $get_each_row['msg'];
 				$date_recipe = $get_each_row['date'];
 			?>
-			<div class="row slideanim" style="padding: 50px;">
+			<div class="row slideanim">
 				<div class="col-lg-6 col-md-6 col-sm-6">
 					
 						<img class="img-thumbnail img-responsive" style="width: 100%; height: 100%" src="admin\dynamicImages\recipes\<?php echo $img_of_recipe; ?>" alt="recipe image" style="max-height: 215px; max-width: 400px;">
@@ -312,7 +312,7 @@
 				$msg_of_media = $get_each_row['msg'];
 				$date_media = $get_each_row['date'];
 			?>
-			<div class="row slideanim" style="padding: 50px;">
+			<div class="row slideanim">
 				<div class="col-lg-6 col-md-6 col-sm-6">
 						
 					<p class="example2" style="text-align: justify;"><?php echo substr($msg_of_media, 0, 900); ?>...</p>
@@ -363,7 +363,7 @@
     		<span class="glyphicon glyphicon-chevron-up"></span>
   			</a>
 			<h2>Gallery</h2>
-			<div class="row slideanim" style="padding: 50px;">
+			<div class="row slideanim">
 				
 			<?php
 			while($get_each_row = mysqli_fetch_array($connect_gallery_query)){
