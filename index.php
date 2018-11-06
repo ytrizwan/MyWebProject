@@ -377,9 +377,11 @@
 				$msg_of_gallery = $get_each_row['msg'];
 			?>	
 
-				<div class="col-sm-6 col-md-4 col-lg-4">
-					<img class="resizeWithThumbnail" src="admin\dynamicImages\gallery\<?php echo $img_of_gallery; ?>" alt="gallery">
-					<h2 style="font-size: 18px"><?php echo $name_of_gallery; ?></h2><br><br><br><br>
+				<div class="col-sm-6 col-md-4 col-lg-4 nojudgedecoration zoomit">
+					<a href="showGallery.php?gallery=<?php echo $id_of_gallery; ?>">
+						<img class="resizeWithThumbnail" src="admin\dynamicImages\gallery\<?php echo $img_of_gallery; ?>" alt="gallery">
+						<h2 style="font-size: 18px"><?php echo $name_of_gallery; ?></h2><br><br><br><br>
+					</a>
 				</div>
 			<?php
 				}
