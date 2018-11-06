@@ -134,7 +134,7 @@
 			<h2>Our Judges</h2><br>
 			<h4>We are here to Judge</h4>
 
-			<div class="row text-center  slideanim">
+			<div class="row text-center slideanim">
 				
 			<?php
 				while($get_each_row = mysqli_fetch_array($connect_judge_query)){
@@ -144,10 +144,11 @@
 					$msg_of_judge = $get_each_row['msg'];
 					$date_judge = $get_each_row['date'];
 			?>
-				<div class="col-sm-6 col-md-6 col-lg-4">
+				<div class="col-sm-6 col-md-6 col-lg-4 nojudgedecoration">
+					<a href="viewJudge.php?judge=<?php echo $id_of_judge; ?>">
 						<img class="resizeJudgeMainPage"  src="admin\dynamicImages\judges\<?php echo $img_of_judge; ?>" alt="judge">
-						<p><strong><?php echo $name_of_judge; ?></strong></p>
-						<p><?php echo $msg_of_judge; ?></p>
+						<h3><strong><?php echo $name_of_judge; ?></strong></h3>
+					</a>
 				</div>
 			<?php
 				}
@@ -157,7 +158,7 @@
 		</div>
 		</div>
 		<div class="<?php echo $show_or_not_judges; ?> container-fluid myContainer bg-3 text-center goTopAnim" style="padding: 50px;">
-			<br><a href="judgesLink.php" class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">Get More</a><br>
+			<br><a href="judgesLink.php" class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">All Judges</a><br>
 			<!--Ending Judge Container-->
 		</div>
 		
@@ -213,7 +214,7 @@
 		</div>
 		</div>
 		<div class="<?php echo $show_or_not_team; ?> container-fluid myContainer bg-1 text-center goTopAnim" style="padding: 50px;">
-			<br><a href="teamsLink.php" class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">Get More</a><br>
+			<br><a href="teamsLink.php" class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">All Teams</a><br>
 		<!--Ending Team Container-->
 		</div>
 		
@@ -272,7 +273,7 @@
 		</div>
 		</div>
 		<div class="<?php echo $show_or_not_recipe; ?> container-fluid myContainer bg-2 text-center goTopAnim" style="padding: 50px;">
-			<br><a href="recipesLink.php" class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">Get More</a><br>
+			<br><a href="recipesLink.php" class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">All Recipes</a><br>
 		<!--Ending Recipes Container-->
 		</div>
 		
@@ -333,7 +334,7 @@
 		</div>
 		</div>
 		<div class="<?php echo $show_or_not_media; ?> container-fluid myContainer bg-4 text-center goTopAnim" style="padding: 50px;">
-			<br><a href="mediaLink.php" class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">Get More</a><br>
+			<br><a href="mediaLink.php" class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">All Episodes</a><br>
 		<!--Ending Media Container-->
 		</div>
 		
@@ -387,7 +388,7 @@
 		</div>
 		</div>
 		<div class="<?php echo $show_or_not_gallery; ?> container-fluid myContainer bg-3 text-center goTopAnim" style="padding: 50px;">
-			<br><a href="galleryLink.php" class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">Get More</a><br>
+			<br><a href="galleryLink.php" class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">All Pictures</a><br>
 		<!--Ending Gallery Container-->
 		</div>
 		

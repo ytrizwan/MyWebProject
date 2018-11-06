@@ -1,5 +1,6 @@
 <?php
 	require 'admin/config/db.php';
+	@$get = $_GET['judge'];
 ?>
 <!DOCTYPE html>
 <html>
@@ -32,89 +33,51 @@
 			include "include/other_pages_header.php";
 		?>
 
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 
-
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		<!--Judge Container-->
 		<div class="mobileView bg-3">
-		<div id="startAgain" class="container-fluid myContainer bg-3 text-center goTopAnim">
+		<div id="startAgain" class="container-fluid myContainer bg-3 goTopAnim">
 
-			<h1 style="font-weight: bold; background: black; color: white; border-radius: 5px;">JUDGES</h1><br>
-
-			<div class="row">
-					
-				
+			
 			<?php
 			$judge_query = "SELECT * FROM judges
-									ORDER BY date DESC
-										LIMIT 0,9";
+									WHERE id = $get";
 			$connect_judge_query = mysqli_query($conn, $judge_query);
 			$count_rows = mysqli_num_rows($connect_judge_query);
 			if($count_rows > 0){
-				while($get_each_row = mysqli_fetch_array($connect_judge_query)){
+			while($get_each_row = mysqli_fetch_array($connect_judge_query)){
 					$id_of_judge = $get_each_row['id'];
 					$name_of_judge = $get_each_row['name'];
 					$img_of_judge = $get_each_row['img'];
 					$msg_of_judge = $get_each_row['msg'];
 					$date_judge = $get_each_row['date'];
-			?>
 
-				<div class="col-sm-6 col-md-4 col-lg-4">
+			?>
+			
+			
+			
+			
+			<h1 class="text-center" style="font-weight: bold; background: black; color: white; border-radius: 5px;"><?php echo $name_of_judge; ?></h1><br>
+
+			<div class="row">
+				<div class="col-md-6">
 					<div class="thumbnail">
-						<img class="resizeWithThumbnail" src="admin\dynamicImages\judges\<?php echo $img_of_judge; ?>" alt="judges">
-						<h2><strong><?php echo $name_of_judge; ?></strong></h2>
-						<p style="color: #1364D1;"><strong><?php echo $msg_of_judge; ?></strong></p>
+						<img class="resizeWithIndividualView" src="admin\dynamicImages\judges\<?php echo $img_of_judge; ?>" alt="judges">
 					</div>
 				</div>	
+
+				<div class="col-md-6">
+					<p style="float: right; font-weight: bold;">Date: <?php echo $date_judge; ?></p><br><br>
+					<p style="color: #1364D1; text-align: justify;"><strong><?php echo $msg_of_judge; ?></strong></p>
+				</div>	
+
+
+
+				
 
 			<?php
 				}
 			}
-		
 			?>
 	
 				
@@ -152,10 +115,8 @@
 
 			<!--Ending Judge Container-->
 		</div>
-		</div>
-		<div class="container-fluid myContainer bg-3 text-center goTopAnim" style="padding: 100px;">
-				<button class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">Get More</button><br>
-		</div>
+		</div><br><br><br><br>
+
 		
 
 		
