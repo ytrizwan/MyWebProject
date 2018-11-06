@@ -148,6 +148,7 @@
 					<a href="viewJudge.php?judge=<?php echo $id_of_judge; ?>">
 						<img class="resizeJudgeMainPage"  src="admin\dynamicImages\judges\<?php echo $img_of_judge; ?>" alt="judge">
 						<h3><strong><?php echo $name_of_judge; ?></strong></h3>
+						<p><strong><?php echo substr($msg_of_judge, 0, 25); ?>.....</strong></p>
 					</a>
 				</div>
 			<?php

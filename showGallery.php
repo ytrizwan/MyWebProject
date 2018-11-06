@@ -23,7 +23,7 @@
 			$team_select = "";
 			$recipe_select = "";
 			$media_select = "";
-			$gallery_select = "active disabled";
+			$gallery_select = "";
 		
 			include "include/other_pages_header.php";
 		?>
