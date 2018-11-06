@@ -1,11 +1,12 @@
 <?php
 	require 'admin/config/db.php';
+	@$get = $_GET['team'];
 ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<!--Head of the Index Page-->
-	<link rel="icon" type="image/png" href="staticImages/logo_pc.png" />	
+	<link rel="icon" type="image/png" href="staticImages/logo_pc.png" />
 	<title>Teams</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,7 +25,7 @@
 		<!--Header of Body-->
 		<?php
 			$judge_select = "";
-			$team_select = "active disabled";
+			$team_select = "";
 			$recipe_select = "";
 			$media_select = "";
 			$gallery_select = "";
@@ -33,37 +34,14 @@
 		?>
 
 
-
-
-		
-		
-		
-		
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-		<!--Judge Container-->
+		<!--Teams Container-->
 		<div class="mobileView bg-3">
-		<div class="container-fluid myContainer bg-3 text-center goTopAnim">
+		<div id="startAgain" class="container-fluid myContainer bg-3 goTopAnim">
 
-			<h1 style="font-weight: bold; background: black; color: white; border-radius: 5px;">TEAMS</h1><br>
-
-				<div class="row">
-	
+			
 			<?php
 			$team_query = "SELECT * FROM teams
-								LIMIT 0,8";
+								WHERE id = $get";
 			$connect_team_query = mysqli_query($conn, $team_query);
 			$count_rows = mysqli_num_rows($connect_team_query);
 			$show_or_not_team = 'hidden';
@@ -75,34 +53,43 @@
 					$msg_of_team = $get_each_row['msg'];
 					$date_team = $get_each_row['date'];
 					$votes_of_team = $get_each_row['vote'];
-				
-			?>					
-				<div class="col-sm-6 col-md-4 col-lg-3 noteamdecoration zoomit">
-					<a href="viewTeam.php?team=<?php echo $id_of_team; ?>">
+			?>
+
+			
+			<h1 class="text-center" style="font-weight: bold; background: black; color: white; border-radius: 5px;"><?php echo $name_of_team; ?></h1><br>
+
+			<div class="row">
+				<div class="col-md-6">
 					<div class="thumbnail">
-						<img class="resizeTeamMainPage" src="admin\dynamicImages\teams\<?php echo $img_of_team; ?>" alt="team image">
-						<h5><strong><?php echo $name_of_team; ?></strong></h5>
+						<img class="resizeWithIndividualView" src="admin\dynamicImages\teams\<?php echo $img_of_team; ?>" alt="teams">
 					</div>
-					</a>
-					<a href="voteLink.php?team=<?php echo $id_of_team; ?>" class="btn btn-success btn-lg" style="color: white;">Vote Us <span class="badge"><?php echo $votes_of_team; ?></span></a><br><br>
-				</div>
+				</div>	
+
+				<div class="col-md-6">
+					<p style="float: right; font-weight: bold;">Date: <?php echo $date_team; ?></p><br><br>
+					<p style="color: black; text-align: justify;"><strong><?php echo $msg_of_team; ?></strong></p>
+				</div>	
+
+
+
+				
 
 			<?php
 				}
 			}
-		
-			?>			
-				</div>
+			?>
+	
+
+
+				
+			</div>
 
 			<!--Ending Judge Container-->
 		</div>
-		</div>
-		
-		<div class="container-fluid myContainer bg-3 text-center goTopAnim" style="padding: 100px;">
-			<button class="btn btn-danger btn-lg" style="float: right; margin-right: 20px;">Get More</button><br>
-		</div>
-		
+		</div><br><br><br><br>
 
+
+		
 	<!--Ending Body Content-->
 	</div>
 

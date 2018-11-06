@@ -174,14 +174,7 @@ body{
 
 
 
-.nojudgedecoration >a{
-	color: black;
-}
 
-.nojudgedecoration >a:hover{
-	color: red;
-	text-decoration: none;
-}
 
 
 div.zoomit img:hover{
@@ -201,9 +194,24 @@ div.zoomit p:hover{
 }
 
 
+.nojudgedecoration >a{
+	color: black;
+}
+
+.nojudgedecoration >a:hover{
+	color: red;
+	text-decoration: none;
+}
 
 
+.noteamdecoration >a{
+	color: #1364D1;
+}
 
+.noteamdecoration >a:hover{
+	color: red;
+	text-decoration: none;
+}
 
 
 

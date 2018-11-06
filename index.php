@@ -189,7 +189,7 @@
   			</a>
 		
 			<h2>Our Teams</h2><br>
-			<h4>We are here to Serve</h4>
+			<h4>We are here to Cook</h4>
 			
 			<div class="row  slideanim">
 			<?php
@@ -200,11 +200,13 @@
 				$msg_of_team = $get_each_row['msg'];
 				$date_team = $get_each_row['date'];
 			?>
-				<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="col-lg-3 col-md-6 col-sm-6 noteamdecoration zoomit">
+					<a href="viewTeam.php?team=<?php echo $id_of_team; ?>">
 					<div class="thumbnail">
 						<img class="resizeTeamMainPage" src="admin\dynamicImages\teams\<?php echo $img_of_team; ?>" alt="team image">
-						<p style="color: #1364D1;"><strong><?php echo $name_of_team; ?></strong></p>
+						<h4><strong><?php echo $name_of_team; ?></strong></h4>
 					</div>
+					</a>
 				</div>
 			<?php
 				}
