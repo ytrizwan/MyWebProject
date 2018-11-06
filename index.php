@@ -380,7 +380,7 @@
 				<div class="col-sm-6 col-md-4 col-lg-4 nojudgedecoration zoomit">
 					<a href="showGallery.php?gallery=<?php echo $id_of_gallery; ?>">
 						<img class="resizeWithThumbnail" src="admin\dynamicImages\gallery\<?php echo $img_of_gallery; ?>" alt="gallery">
-						<h2 style="font-size: 18px"><?php echo $name_of_gallery; ?></h2><br><br><br><br>
+						<h2 style="font-size: 18px"><strong><?php echo $name_of_gallery; ?></strong></h2><br><br><br><br>
 					</a>
 				</div>
 			<?php

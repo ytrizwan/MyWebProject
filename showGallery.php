@@ -87,18 +87,13 @@
         top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
             <!-- Loading Screen -->
             <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
-                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="../svg/loading/static-svg/spin.svg" />
+                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="assets/slideShow/spin.svg" />
             </div>
 
             <!-- Slides Container -->
             <div data-u="slides" style="position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
 				
-				
-				
-				
-				
-				
-				
+
 				
 			<?php
 			$gallery_query = "SELECT * FROM gallery
@@ -127,23 +122,7 @@
 			?>		
 				
 				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
+
 				
 			<?php
 			$gallery_query = "SELECT * FROM gallery";
@@ -169,98 +148,14 @@
 				}
 			}
 			?>				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
 
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-	
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 
                 
             </div>
             
 			
 			
-	
-			
-			
-			
-			
-			
-			
-			
+
 			
             <!--#region Bullet Navigator Skin Begin -->
             <!-- Help: https://www.jssor.com/development/slider-with-bullet-navigator.html -->
@@ -305,29 +200,7 @@
         <!-- Jssor Slider End -->
     </div>	
 				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
+
 				
 			<!--Ending Judge Container-->
 		</div>
@@ -350,7 +223,7 @@
     <script src="bootstrap.min.js"></script>
     <script src="docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="ie10-viewport-bug-workaround.js"></script>
+    <script src="assets/slideShow/ie10-viewport-bug-workaround.js"></script>
 
     <!-- jssor slider scripts-->
     <script type="text/javascript" src="assets/slideShow/jssor.slider.min.js"></script>
