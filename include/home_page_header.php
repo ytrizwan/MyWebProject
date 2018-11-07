@@ -25,7 +25,7 @@
 						</li>
 						<li><a href="#recipesSection"><span style="font-weight: bold; font-size: 15px;">RECIPES</span></a>
 						</li>
-						<li><a href="#mediaSection"><span style="font-weight: bold; font-size: 15px;">MEDIA</span></a>
+						<li><a href="#mediaSection"><span style="font-weight: bold; font-size: 15px;">EPISODES</span></a>
 						</li>
 						<li><a href="#gallerySection"><span style="font-weight: bold; font-size: 15px;">GALLERY</span></a>
 						</li>

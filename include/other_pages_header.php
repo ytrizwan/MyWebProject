@@ -25,7 +25,7 @@
 						</li>
 						<li class="<?php echo $recipe_select; ?>"><a href="recipesLink.php"><span style="font-weight: bold; font-size: 15px;">RECIPES</span></a>
 						</li>
-						<li class="<?php echo $media_select; ?>"><a href="mediaLink.php"><span style="font-weight: bold; font-size: 15px;">MEDIA</span></a>
+						<li class="<?php echo $media_select; ?>"><a href="mediaLink.php"><span style="font-weight: bold; font-size: 15px;">EPISODES</span></a>
 						</li>
 						<li class="<?php echo $gallery_select; ?>"><a href="galleryLink.php"><span style="font-weight: bold; font-size: 15px;">GALLERY</span></a>
 						</li>
