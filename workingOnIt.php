@@ -26,9 +26,66 @@
 			$recipe_select = "";
 			$media_select = "";
 			$gallery_select = "";
+			$behind_select = "";
+			$sponsor_select = "";
+			$android_select = "active disabled";
+			$about_select = "";
 		
 			include "include/other_pages_header.php";
 		?>
+		
+		
+		
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		<div id="startAgain" class="container-fluid myContainer bg-3 text-center goTopAnim" style="padding: 100px;">
 			<h1 class="bg-3 text-center" style="padding: 200px; padding-bottom: 999px;">WORKING ON IT :)</h1>

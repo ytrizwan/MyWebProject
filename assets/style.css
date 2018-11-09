@@ -67,6 +67,55 @@ body{
 
 
 
+/*Large Screen*/
+@media screen and (min-width: 768px) {
+  .navbar-nav ul li a:hover{
+	    background-color: black !important;
+		color: white !important;
+  }
+}
+
+/*Large Screen*/
+@media screen and (min-width: 768px) {
+  .navbar-nav ul li a{
+	font-weight: bold; 
+	font-size: 15px; 
+	color: red !important;
+  }
+}
+
+
+/*Large Screen*/
+@media screen and (min-width: 768px) {
+  .navbar-nav ul li.active a{
+	    background-color: black !important;
+		color: white !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Logo Settings*/
@@ -84,15 +133,6 @@ body{
 	text-decoration: none;
 }
 
-/*
-.citLogo{
-	margin-left: 78px; 
-	color: white; 
-	font-weight: bold; 
-	font-size: 50px;
-	font-family: forte;
-}
-*/
 
 .pressureCookerLogo{
 	font-weight: bold;
@@ -135,22 +175,6 @@ body{
 .container-fluid {
 	padding: 0px;
 }
-
-/*
-@media screen and (min-width: 900px) {
-  .container-fluid {
-	padding: 0px;
-  }
-}
-
-@media screen and (max-width: 901) {
-  .container-fluid {
-	padding: 0px;
-
-  }
-}
-*/
-
 
 
 

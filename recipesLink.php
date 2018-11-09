@@ -21,13 +21,18 @@
 	<!--Body Content-->
 	<div class="container-fluid">
 
-		<!--Header of Body-->		
+		<!--Header of Body-->
 		<?php
+			$home_select = "";
 			$judge_select = "";
 			$team_select = "";
 			$recipe_select = "active disabled";
 			$media_select = "";
 			$gallery_select = "";
+			$behind_select = "";
+			$sponsor_select = "";
+			$android_select = "";
+			$about_select = "";
 		
 			include "include/other_pages_header.php";
 		?>

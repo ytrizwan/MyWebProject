@@ -26,6 +26,10 @@
 			$recipe_select = "";
 			$media_select = "";
 			$gallery_select = "";
+			$behind_select = "";
+			$sponsor_select = "";
+			$android_select = "";
+			$about_select = "active disabled";
 		
 			include "include/other_pages_header.php";
 		?>

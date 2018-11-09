@@ -22,6 +22,7 @@
 	<div class="container-fluid">
 
 		<!--Header of Body-->
+		
 		<?php
 			$home_select = "active disabled";
 			$judge_select = "";
@@ -33,6 +34,27 @@
 			include "include/home_page_header.php";
 		?>
 
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		

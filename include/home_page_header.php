@@ -29,7 +29,14 @@
 						</li>
 						<li><a href="#gallerySection"><span style="font-weight: bold; font-size: 15px;">GALLERY</span></a>
 						</li>
-						<li><a href="#citContacts"><span style="font-weight: bold; font-size: 15px;">CONTACT</span></a>
+						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span style="font-weight: bold; font-size: 15px;">OTHERS </span><span class="caret" ></span></a>
+							<ul class="dropdown-menu">
+          						<li><a href="behindScense.php"><center>BEHIND SCENES</center></a></li>
+          						<li><a href="sponsorLink.php"><center>SPONSORS</center></a></li>
+								<li><a href="workingOnIt.php"><center>ANDROID APP</center></a></li>
+          						<li><a href="#citContacts"><center>CONTACT US</center></a></li>
+          						<li><a href="about.php"><center>ABOUT US</center></a></li>
+        					</ul>
 						</li>
 					</ul>
 

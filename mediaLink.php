@@ -23,11 +23,16 @@
 
 		<!--Header of Body-->
 		<?php
+			$home_select = "";
 			$judge_select = "";
 			$team_select = "";
 			$recipe_select = "";
 			$media_select = "active disabled";
 			$gallery_select = "";
+			$behind_select = "";
+			$sponsor_select = "";
+			$android_select = "";
+			$about_select = "";
 		
 			include "include/other_pages_header.php";
 		?>
