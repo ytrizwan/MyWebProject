@@ -112,7 +112,7 @@
 				<div class="col-sm-6 col-md-4 col-lg-4 nojudgedecoration zoomit">
 					<a href="viewJudge.php?judge=<?php echo $id_of_judge; ?>">
 					<div class="thumbnail">
-						<img class="resizeWithThumbnail" src="admin\dynamicImages\judges\<?php echo $img_of_judge; ?>" alt="judges">
+						<img class="resizeWithThumbnail myimageshake" src="admin\dynamicImages\judges\<?php echo $img_of_judge; ?>" alt="judges">
 						<h2><strong><?php echo $name_of_judge; ?></strong></h2>
 						<p><strong><?php echo substr($msg_of_judge, 0, 25); ?>.....</strong></p>
 					</div>

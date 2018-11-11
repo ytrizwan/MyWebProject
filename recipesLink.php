@@ -93,7 +93,7 @@
 				?>
 				<div class="col-sm-6 col-md-4 col-lg-3">
 					<div class="thumbnail">
-						<img class="resizeWithThumbnail" src="admin\dynamicImages\recipes\<?php echo $img_of_recipe; ?>" alt="team image">
+						<img class="resizeWithThumbnail myimageshake" src="admin\dynamicImages\recipes\<?php echo $img_of_recipe; ?>" alt="team image">
 						<h2><strong><?php echo $name_of_recipe; ?></strong></h2>
 						<p class="recipesMessageLimit" style="color: #1364D1;"><strong><?php echo $msg_of_recipe; ?></strong></p>
 					</div>

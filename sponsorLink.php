@@ -66,7 +66,7 @@
 				$msg_of_sponsor = $get_each_row['msg'];
 			?>						
 				<div class="col-sm-6 col-md-4 col-lg-3">
-						<img class="resizeWithThumbnail" src="admin\dynamicImages\sponsors\<?php echo $img_of_sponsor; ?>" alt="sponsors">
+						<img class="resizeWithThumbnail myimageshake" src="admin\dynamicImages\sponsors\<?php echo $img_of_sponsor; ?>" alt="sponsors">
 						<h2><strong><?php echo $name_of_sponsor; ?></strong></h2>
 						<p style="color: #1364D1;"><strong><?php echo $msg_of_sponsor; ?></strong></p><br><br><br><br>
 				</div>

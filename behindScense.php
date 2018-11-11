@@ -63,7 +63,7 @@
 				$msg_of_behindscense = $get_each_row['msg'];
 			?>			
 				<div class="col-sm-6 col-md-4 col-lg-3">
-						<img class="resizeWithThumbnail" src="admin\dynamicImages\behindScenes\<?php echo $img_of_behindscense; ?>" alt="behindScenes">
+						<img class="resizeWithThumbnail myimageshake" src="admin\dynamicImages\behindScenes\<?php echo $img_of_behindscense; ?>" alt="behindScenes">
 						<h2><strong><?php echo $name_of_behindscense; ?></strong></h2>
 						<p style="color: #1364D1;"><strong><?php echo $msg_of_behindscense; ?></strong></p><br><br><br><br>
 				</div>
