@@ -168,7 +168,7 @@
 			?>
 				<div class="col-sm-6 col-md-6 col-lg-4 nojudgedecoration zoomit">
 					<a href="viewJudge.php?judge=<?php echo $id_of_judge; ?>">
-						<img class="resizeJudgeMainPage"  src="admin\dynamicImages\judges\<?php echo $img_of_judge; ?>" alt="judge">
+						<img class="resizeJudgeMainPage myimageshake"  src="admin\dynamicImages\judges\<?php echo $img_of_judge; ?>" alt="judge">
 						<h3><strong><?php echo $name_of_judge; ?></strong></h3>
 						<p><strong><?php echo substr($msg_of_judge, 0, 25); ?>.....</strong></p>
 					</a>
@@ -226,7 +226,7 @@
 				<div class="col-lg-3 col-md-6 col-sm-6 noteamdecoration zoomit">
 					<a href="viewTeam.php?team=<?php echo $id_of_team; ?>">
 					<div class="thumbnail">
-						<img class="resizeTeamMainPage" src="admin\dynamicImages\teams\<?php echo $img_of_team; ?>" alt="team image">
+						<img class="resizeTeamMainPage myimageshake" src="admin\dynamicImages\teams\<?php echo $img_of_team; ?>" alt="team image">
 						<h4><strong><?php echo $name_of_team; ?></strong></h4>
 					</div>
 					</a>
@@ -279,17 +279,21 @@
 				$msg_of_recipe = $get_each_row['msg'];
 				$date_recipe = $get_each_row['date'];
 			?>
-			<div class="row slideanim">
+			<div class="row slideanim noRecipesdecoration zoomitMainRecipes">
+				<a href="viewRecipes.php?recipe=<?php echo $id_of_recipe; ?>">
 				<div class="col-lg-6 col-md-6 col-sm-6">
 					
-						<img class="img-thumbnail img-responsive" style="width: 100%; height: 100%" src="admin\dynamicImages\recipes\<?php echo $img_of_recipe; ?>" alt="recipe image" style="max-height: 215px; max-width: 400px;">
+						<img class="img-thumbnail img-responsive myimageshake" style="width: 100%; height: 100%" src="admin\dynamicImages\recipes\<?php echo $img_of_recipe; ?>" alt="recipe image" style="max-height: 215px; max-width: 400px;">
 						<h2><strong><?php echo $name_of_recipe; ?></strong></h2>
+					
 				</div>
 				
 				<div class="col-lg-6 col-md-6 col-sm-6">
-					<p class="example1" style="text-align: justify;"><?php echo substr($msg_of_recipe, 0, 900); ?>...</p>
+					
+					<strong><p class="example1" style="text-align: justify;"><?php echo substr($msg_of_recipe, 0, 900); ?>...</p></strong>
 					
 				</div>
+					</a>
 			</div>
 			<?php
 				}
@@ -402,7 +406,7 @@
 
 				<div class="col-sm-6 col-md-4 col-lg-4 nojudgedecoration zoomit">
 					<a href="showGallery.php?gallery=<?php echo $id_of_gallery; ?>">
-						<img class="resizeWithThumbnail" src="admin\dynamicImages\gallery\<?php echo $img_of_gallery; ?>" alt="gallery">
+						<img class="resizeWithThumbnail myimageshake" src="admin\dynamicImages\gallery\<?php echo $img_of_gallery; ?>" alt="gallery">
 						<h2 style="font-size: 18px"><strong><?php echo $name_of_gallery; ?></strong></h2><br><br><br><br>
 					</a>
 				</div>

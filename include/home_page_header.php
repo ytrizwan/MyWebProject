@@ -10,7 +10,7 @@
 
 					<div class="navbar-header mouseOnlogo">
 						<a href="https://cit.edu.au/">
-							<img class="myimage" src="staticImages/logo_pc.png" alt="logo" width="120" height="120">
+							<img class="myimage myimageshake" src="staticImages/logo_pc.png" alt="logo" width="120" height="120">
 						</a>
 					</div>
 				</div>
