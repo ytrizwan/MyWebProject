@@ -650,6 +650,40 @@ div.zoomit p:hover{
 
 
 
+.workingOnIt {}
+
+/*Large Screen*/
+@media screen and (min-width: 901px) {
+  .mobileView {
+	workingOnIt: 200px;
+  }
+}
+
+/*Mobile Screen*/
+@media screen and (max-width: 900px) {
+  .mobileView {
+	workingOnIt: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .mobileView {}
 
 /*Large Screen*/
@@ -665,22 +699,6 @@ div.zoomit p:hover{
 	padding: 0px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -751,57 +769,37 @@ p.recipesMessageLimit {
 
 
 
-/*Footer of Page*/
-.footerStyleLeft >a {
-	margin-top: 10px;
-	color: #BCBCBC;
-	float: left;
-}
 
-.footerStyleLeft >a:hover {
-	text-decoration: none;
-	color: #FFFFFF;
-	font-weight: bold;
-}
 
-.footerStyleRight >a {
-	color: #BCBCBC;
-	float: right;
-}
 
-.footerStyleRight >a:hover {
-	text-decoration: none;
-	color: #FFFFFF;
-	font-weight: bold;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footerBoarder {
 	border-top: 1px solid black;
 	background: #222;
-	padding: 20px;
+	padding-bottom: 10px;
+/*	padding: 20px;*/
 }
 
-.footerSponsorMarginRight{
-	
-}
-@media screen and (min-width: 1001px) {
-  .footerSponsorMarginRight {
-	padding-right: 0px;
-  }
-}
 
-@media screen and (max-width: 1000px) {
-  .footerSponsorMarginRight {
-	padding-right: 110px;
-
-  }
-}
-
-.footerSponsor center a{
+.footerStyle center a{
 	color: #BCBCBC;
 }
 
-.footerSponsor center a:hover{
+.footerStyle center a:hover{
 	text-decoration: none;
 	color: #FFFFFF;
 	font-weight: bold;

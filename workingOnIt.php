@@ -88,7 +88,7 @@
 		
 		
 		<div id="startAgain" class="container-fluid myContainer bg-3 text-center goTopAnim" style="padding: 100px;">
-			<h1 class="bg-3 text-center" style="padding: 200px; padding-bottom: 999px;">WORKING ON IT :)</h1>
+			<h1 class="bg-3 text-center workingOnIt" style="padding-bottom: 999px;">WORKING ON IT :)</h1>
 		</div>
 	</div>
 
